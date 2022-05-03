@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".QuizViewActivity">
+
+    <TextView
+        android:id="@+id/text_view_score_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Your score is low\nQuiz again?"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/text_view_highscore"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_quiz"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:text="Score: 0"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rounded_corner"
+        android:layout_toRightOf="@id/button_no_quiz"
+        android:textColor="@android:color/white"
+        android:text="YES" />
+    <Button
+        android:id="@+id/button_no_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>

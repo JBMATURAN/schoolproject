@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tutorialappfinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/three"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EndActivity"></activity>
+        <activity android:name=".StudyActivity3" />
+        <activity android:name=".StudyActivity2" />
+        <activity android:name=".StudyActivity1" />
+        <activity android:name=".StudySelect" />
+        <activity android:name=".QuizAnswerActivity" />
+        <activity android:name=".QuizViewActivity" />
+        <activity android:name=".QuizListActivity" />
+        <activity android:name=".StudyActivity" />
+        <activity android:name=".MainHomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

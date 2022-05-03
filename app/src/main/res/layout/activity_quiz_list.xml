@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E170F4"
+    tools:context=".QuizListActivity">
+
+    <Button
+        android:id="@+id/quiz1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:text="QUIZ 1"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_corner"/>
+
+
+    <Button
+        android:id="@+id/quiz2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+            android:text="QUIZ 2"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_corner"/>
+
+    <Button
+        android:id="@+id/quiz3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="40dp"
+        android:text="QUIZ 3"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_corner"/>
+
+</RelativeLayout>
